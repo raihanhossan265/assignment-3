@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+<link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
 <!-- fontawesome -->
 <script src="https://kit.fontawesome.com/027f4b2125.js" crossorigin="anonymous"></script>
 
@@ -28,6 +29,9 @@
       font-size: 1.5rem;
       font-weight: 700;
     }
+    .element {
+          display: none;
+        }
     
 </style>
 </head>
@@ -67,7 +71,7 @@
               </div>
         </nav>
         <!-- banner section -->
-        <section>
+        <section class="relative">
             <div class="carousel w-full">
                 <div id="slide1" class="carousel-item relative w-full">
                     <div class="relative">
@@ -133,6 +137,29 @@
                     <a href="#slide1" class="btn btn-circle">❯</a>
                   </div>
                 </div>
+              </div>
+              <div class="flex lg:absolute -bottom-28 left-0 lg:left-52 bg-white px-16 py-12 rounded-2xl gap-20">
+                <div>
+                  <img src="images/fruit1.png" alt="">
+                  <p class="text-center">Strawberry</p>
+                </div>
+                <div>
+                  <img src="images/fruit2.png" alt="">
+                  <p class="text-center">Orange</p>
+                </div>
+                <div>
+                  <img src="images/fruit3.png" alt="">
+                  <p class="text-center">Mango</p>
+                </div>
+                <div>
+                  <img src="images/fruit4.png" alt="">
+                  <p class="text-center">Strawberry</p>
+                </div>
+                <div>
+                  <img src="images/fruit5.png" alt="">
+                  <p class="text-center">Mango</p>
+                </div>
+                
               </div>
         </section>
     </header>
@@ -326,6 +353,76 @@
           </div>
           
         </section>
+        <!-- why chose us  -->
+        <section class="mt-36">
+          <div class="text-center">
+            <h2 class="text-[#121212] text-5xl font-extrabold mb-6">Why Choose Us</h2>
+            <p class="text-[#121212] text-base font-medium mx-10 md:mx-40 lg:mx-96">CContrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+          </div>
+          <div class="flex gap-10 flex-col md:flex-col lg:flex-row px-5 md:pl-5 lg:pl-2 pt-24">
+            <div class="space-y-5">
+              <div class="lg:flex text-center lg:text-start items-center gap-6">
+                <i class="fa-solid fa-user-minus bg-slate-300 rounded-full p-4"></i>
+                <div>
+                  <h3 class="text-[#121212] text-2xl font-extrabold">Dedicated Team</h3>
+                  <div class=" m-auto lg:ml-0 border-b-2 border-black w-36 mt-5 mb-4">
+                  </div>
+                  <p>Professional employees are there for you to pick the most amazing and fresh fruits</p>
+                </div>
+              </div>
+              <div class="lg:flex text-center lg:text-start items-center gap-6">
+                <i class="fa-solid fa-user-minus bg-slate-300 rounded-full p-4"></i>
+                <div>
+                  <h3 class="text-[#121212] text-2xl font-extrabold">Dedicated Team</h3>
+                  <div class=" m-auto lg:ml-0 border-b-2 border-black w-36 mt-5 mb-4">
+                  </div>
+                  <p>Professional employees are there for you to pick the most amazing and fresh fruits</p>
+                </div>
+              </div>
+              <div class="lg:flex text-center lg:text-start items-center gap-6">
+                <i class="fa-solid fa-user-minus bg-slate-300 rounded-full p-4"></i>
+                <div>
+                  <h3 class="text-[#121212] text-2xl font-extrabold">Dedicated Team</h3>
+                  <div class=" m-auto lg:ml-0  border-b-2 border-black w-36 mt-5 mb-4">
+                  </div>
+                  <p>Professional employees are there for you to pick the most amazing and fresh fruits</p>
+                </div>
+              </div>
+            </div>
+            <div class="m-auto"> <img src="images/whychoose1.png" alt=""></div>
+            <div>
+              <div class="space-y-5">
+                <div class="lg:flex text-center lg:text-start items-center gap-6">
+                  <i class="fa-solid fa-user-minus bg-slate-300 rounded-full p-4"></i>
+                  <div>
+                    <h3 class="text-[#121212] text-2xl font-extrabold">Dedicated Team</h3>
+                    <div class=" m-auto lg:ml-0  border-b-2 border-black w-36 mt-5 mb-4">
+                    </div>
+                    <p>Professional employees are there for you to pick the most amazing and fresh fruits</p>
+                  </div>
+                </div>
+                <div class="lg:flex text-center lg:text-start items-center gap-6">
+                  <i class="fa-solid fa-user-minus bg-slate-300 rounded-full p-4"></i>
+                  <div>
+                    <h3 class="text-[#121212] text-2xl font-extrabold">Dedicated Team</h3>
+                    <div class=" m-auto lg:ml-0  border-b-2 border-black w-36 mt-5 mb-4">
+                    </div>
+                    <p>Professional employees are there for you to pick the most amazing and fresh fruits</p>
+                  </div>
+                </div>
+                <div class="lg:flex text-center lg:text-start items-center gap-6">
+                  <i class="fa-solid fa-user-minus bg-slate-300 rounded-full p-4"></i>
+                  <div>
+                    <h3 class="text-[#121212] text-2xl font-extrabold">Dedicated Team</h3>
+                    <div class=" m-auto lg:ml-0 border-b-2 border-black w-36 mt-5 mb-4">
+                    </div>
+                    <p>Professional employees are there for you to pick the most amazing and fresh fruits</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
     </main>
     
     <footer class="footer footer-center py-36 bg-[#121212] text-base-content">
@@ -334,7 +431,7 @@
           <a class="normal-case text-xl"><img src="images/logo.png" alt=""></a>
           <h3 class="text-[#fff] text-4xl font-bold pl-2">Fruit Burst</h3>
         </div>
-        <ul class="text-white text-xl  my-7 font-semibold grid grid-cols-3 lg:grid-cols-6 gap-x-7">
+        <ul class="text-white text-xl  my-7 font-semibold grid grid-cols-3  lg:grid-cols-6 gap-x-7">
           <li><a href="">Home</a></li>
           <li><a href="">About Us</a></li>
           <li><a href="">shop</a></li>
@@ -344,7 +441,7 @@
         </ul>
 
 
-        <ul class="text-white text-3xl font-semibold grid grid-cols-3 lg:grid-cols-6 gap-x-3 mt-5">
+        <ul class="text-white text-3xl font-semibold grid grid-cols-6 gap-x-3 mt-5">
           <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
           <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
           <li><a href=""><i class="fa-brands fa-youtube"></i></a></li>
